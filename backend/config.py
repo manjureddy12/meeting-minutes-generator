@@ -30,7 +30,8 @@ EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 # Summarization model: reads context and generates meeting minutes
 # Option 1: google/flan-t5-base (~250MB, faster, good quality)
 # Option 2: facebook/bart-large-cnn (~1.6GB, stronger summarization)
-SUMMARIZATION_MODEL_NAME = "google/flan-t5-base"
+SUMMARIZATION_MODEL_NAME = "google/flan-t5-large"
+
 
 # ─── Text Splitting Configuration ─────────────────────────────────────────────
 # CHUNK_SIZE: How many characters per chunk
