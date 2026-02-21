@@ -79,7 +79,6 @@ def retrieve_context(retriever: BaseRetriever, query: str) -> str:
     # get_relevant_documents is the standard LangChain retriever method
     documents: List[Document] = retriever.invoke(query)
 
-
     if not documents:
         return "No relevant context found in the transcript."
 

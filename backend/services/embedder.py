@@ -13,7 +13,6 @@ The model we use (all-MiniLM-L6-v2):
 
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
-
 from typing import List
 import sys
 import os
