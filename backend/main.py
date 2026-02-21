@@ -26,8 +26,8 @@ async def lifespan(app: FastAPI):
     print("🚀 Starting up Meeting Minutes Generator...")
 
     # Import here to avoid circular imports
-    from services.rag_pipeline import rag_pipeline
-    rag_pipeline.initialize()
+    # from services.rag_pipeline import rag_pipeline
+    # rag_pipeline.initialize()
 
     print("✅ Server ready to accept requests")
     yield  # <-- Server runs here
